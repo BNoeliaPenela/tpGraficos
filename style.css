@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+
+h1 {
+    margin: 20px;
+    color: #333;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+.nav-link {
+    /*padding: 10px;*/
+    text-decoration: none;
+    color: black; /* Cambia el color del texto */
+    margin: 0 0 33px 33px;
+    margin-bottom: auto;
+    
+
+}
+
+.nav-link.active {
+    text-decoration-color:  black; /* Cambia el color de fondo */
+    color: white; /* Cambia el color del texto en el enlace activo */
+}
+
+#graficos {
+    
+    padding: 10px;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.288);
+    
+}
+
+.chart-container{
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.541);*/
+    border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+}
+/*#todos{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.288);
+}*/
+
+
+/*#graficoAlumnadoPorNivel{
+    width: 900px; height: 900px;
+    
+}*/
